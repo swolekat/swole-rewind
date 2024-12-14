@@ -3,8 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <title>2024 Swole Rewind</title>
+    <style>
+        *, *:before, *:after { box-sizing: border-box; }
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: #0F0;
+            font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        .graphic {
+            width: 1760px;
+        }
+        .header-section {
+            width: 100%;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url("https://swolekat.info/images/stripes.png");
+            background-color: #5E5651;
+            background-repeat: repeat-x;
+            font-size: 150px;
+            padding: 20px;
+            paint-order: stroke fill;
+            color: #000;
+            -webkit-text-stroke: 10px #fff;
+            font-weight: 900;
+        }
+
+        .logo {
+            width: 400px;
+        }
+
+        .section {
+            padding: 20px;
+
+        }
+
+        .content-section {
+            background: linear-gradient(0deg, rgb(116, 15, 15) 0%, rgba(198,22,24,1) 100%);
+        }
+
+        .section-title {
+            font-weight: 900;
+            color: #fff;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .section-card {
+            background: #fff;
+            background: linear-gradient(0deg, rgb(191, 191, 191) 0%, rgb(255, 255, 255) 100%);
+            border-radius: 20px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+            box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+        }
+
+        .card-title {
+            font-size: 48px;
+        }
+
+        .card-number {
+            font-size: 64px;
+        }
+
+        .twitch {
+            background: linear-gradient(0deg, rgb(60, 40, 103) 0%, rgba(100,65,165,1) 100%);
+        }
+
+        .youtube {
+            background: linear-gradient(0deg, rgb(116, 15, 15) 0%, rgba(198,22,24,1) 100%);
+        }
+
+        .stream-stuff {
+            background: linear-gradient(0deg, #524C46 0%, #6D5D50 100%);
+        }
+    </style>
 </head>
 <body>
-
+    <div class="graphic">
+        <div class="header-section">
+            <img class="logo" src="https://swolekat.info/images/logo.svg" />
+            <div class="year">
+                2024 RECAP
+            </div>
+        </div>
+        <div class="section content-section">
+            <div class="section-title">
+                Content
+            </div>
+            <div class="section-content">
+                <div class="section-card">
+                    <div class="card-title">
+                        New Models
+                    </div>
+                    <div class="card-number">
+                        12
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Games Beaten
+                    </div>
+                    <div class="card-number">
+                        36
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Collabs
+                    </div>
+                    <div class="card-number">
+                        67
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Clips
+                    </div>
+                    <div class="card-number">
+                        1,804
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Hours Streamed
+                    </div>
+                    <div class="card-number">
+                        915
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section twitch">
+            <div class="section-title">
+                Twitch
+            </div>
+            <div class="section-content">
+                <div class="section-card">
+                    <div class="card-title">
+                        New Followers
+                    </div>
+                    <div class="card-number">
+                        522
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Channel Points Used
+                    </div>
+                    <div class="card-number">
+                        4.6 Million
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section youtube">
+            <div class="section-title">
+                YouTube
+            </div>
+            <div class="section-content">
+                <div class="section-card">
+                    <div class="card-title">
+                        Videos
+                    </div>
+                    <div class="card-number">
+                        9
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Shorts
+                    </div>
+                    <div class="card-number">
+                        657
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        New Subscribers
+                    </div>
+                    <div class="card-number">
+                        891
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Views
+                    </div>
+                    <div class="card-number">
+                        405.8K
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Hours of Watch Time
+                    </div>
+                    <div class="card-number">
+                        4.2K
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section stream-stuff">
+            <div class="section-title">
+                Stream Stuff
+            </div>
+            <div class="section-content">
+                <div class="section-card">
+                    <div class="card-title">
+                        Things Printed
+                    </div>
+                    <div class="card-number">
+                        1086
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Swolebae Interruptions
+                    </div>
+                    <div class="card-number">
+                        1653
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        XP Earned
+                    </div>
+                    <div class="card-number">
+                        611
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Wheel Spins
+                    </div>
+                    <div class="card-number">
+                        1,616
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Waifus Adopted
+                    </div>
+                    <div class="card-number">
+                        383
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="card-title">
+                        Cats Printed
+                    </div>
+                    <div class="card-number">
+                        41
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
